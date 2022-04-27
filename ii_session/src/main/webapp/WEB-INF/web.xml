@@ -1,0 +1,33 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <servlet>
+        <servlet-name>sessionTrackCount</servlet-name>
+        <servlet-class>com.projects.sessionTrackCount</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sessionTrackCount</servlet-name>
+        <url-pattern>/trackCount</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>hiddenForm</servlet-name>
+        <servlet-class>com.projects.hiddenForm</servlet-class>
+    </servlet> 
+    <servlet-mapping>
+        <servlet-name>hiddenForm</servlet-name>
+        <url-pattern>/hiddenForm</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>hiddenSessionTrack</servlet-name>
+        <servlet-class>com.projects.hiddenSessionTrack</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hiddenSessionTrack</servlet-name>
+        <url-pattern>/hiddenSessionTrack</url-pattern>
+    </servlet-mapping>
+</web-app>
